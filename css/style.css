@@ -1,4 +1,57 @@
 body {
     font-family: 'Montserrat', 'PT Sans', sans-serif;
     color: #999999;
+    font-size: 14px;
+    margin: 0 0;
 }
+
+/* header */
+
+.who-we-are, .header-title, .header-about {
+    text-transform: uppercase;
+}
+.who-we-are, .header-title {
+    font-family: 'Montserrat';
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+.header {
+    display: block;
+    width: auto;
+}
+
+.conteiner {
+    width: 940px;
+    height: auto;
+    margin: 0 213px;
+}
+
+.header-content {
+    min-width: 539px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 130px;
+}
+
+.who-we-are {
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+.header-title {
+    display: inline;
+    font-weight: 400;
+    font-size: 48px;
+    color: #0ec8cb;
+    max-width: 532px;
+}
+
+.header-about {
+    font-family: "PT Sans";
+    font-size: 18px;
+    max-width: 513px;
+    margin: 0 auto;
+    padding-top: 44px;
+}
+
