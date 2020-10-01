@@ -1,13 +1,18 @@
 body {
     font-family: 'Montserrat', 'PT Sans', sans-serif;
-    color: #999999;
+    /* color: #999999; */
+    color: #000000;
     font-size: 14px;
     margin: 0 0;
 }
-
+h2 {
+    margin: 0;
+    padding: 0;
+}
 /* header */
 
-.who-we-are, .header-title, .header-about {
+.who-we-are, .header-title, .header-about,
+.main-title {
     text-transform: uppercase;
 }
 .who-we-are, .header-title {
@@ -18,6 +23,7 @@ body {
 .header {
     display: block;
     width: auto;
+    color: #999999;
 }
 
 .conteiner {
@@ -55,3 +61,75 @@ body {
     padding-top: 30px;
 }
 
+ /* main */
+ .main {
+     font-size: 0;
+ }
+
+.main-content {
+    width: 940px;
+    height: 420px;
+    margin-top: 108px;
+    display: inline-flex;
+}
+.design, .development,
+.graphics, .illustrations {
+    width: 25%;
+    height: 420px;
+    background-color: #f7f7f7;
+    display: inline-block;
+    font-size: 14px;
+}
+.image-icon {
+    max-width: 40%;
+    height: 10%;
+    display: block;
+    margin: 55px 86px;
+    box-sizing: border-box;
+    font-size: 0;
+}
+.main > .main-title {
+    text-align: center;
+    width: 100%;
+
+}
+
+#content p {
+    color: #777777;
+}
+.main-info {
+    text-align: center;
+    color: #777777;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.icon {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    color: black;
+    content: "";
+    position: relative;
+    font-size: 65px;
+    text-align: center;
+}
+
+.icon.far::after {
+    content: "\f3a5";
+}
+.info {
+    width: 174px;
+    margin: 0 auto;
+}
+#content:hover{
+    background-color: #0ec8cb;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 10px #0ec8cb;
+}
+i:hover  {
+    color: white;
+}
